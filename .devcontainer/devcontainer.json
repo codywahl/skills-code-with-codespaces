@@ -1,6 +1,6 @@
 {
   // Name this configuration
-  "name": "Codespace for Skills!",
+  "name": "Codespace for Skills",
   // Use the base codespace image
   "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
 
@@ -19,4 +19,6 @@
           ]
       }
   }
+  ,
+  "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
 }
